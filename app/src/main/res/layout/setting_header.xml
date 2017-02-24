@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_below="@+id/container_toolbar"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true">
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/footer"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_below="@+id/container_toolbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:padding="1dp"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="2"
+                    android:text="@string/text_settings_1"
+                    android:ellipsize="end"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="10dp"
+                    android:padding="1dp"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="2"
+                    android:text="@string/text_settings_2"
+                    android:ellipsize="end"
+                    android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

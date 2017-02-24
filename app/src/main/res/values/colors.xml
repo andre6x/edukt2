@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="black_ligth">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="home_title">#E7E1E1</color>
+    <color name="course">#88E7E1E1</color>
+    <color name="txt_home_title">#005884</color>
+    <color name="txt_lesson_background">#0178A3</color>
+    <color name="background_green_movistar">#449C44</color>
+    <color name="txt_lesson_name_background">#A7ACB0</color>
+    <color name="txt_lesson_count_background">#434343</color>
+    <color name="backgroung_toast">#DF2727</color>
+    <color name="white_transparent">#99FFFFFF</color>
+    <color name="black_transparent">#60000000</color>
+    <color name="background_my_course">#00C7D8</color>
+    <color name="txt_color_my_course">#4A4F55</color>
+
+   <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="colorPrimary">#345C80</color>
+    <color name="colorPrimaryDark">#345C80</color>
+    <color name="colorAccent">#0096B1</color>
+
+    <color name="colorbackground">#E1E4E9</color>
+    <color name="grey">#ddd</color>
+
+    <color name="whiteLinea">#F9F9F9</color>
+
+    <color name="amarilloHome">#FDB91A</color>
+    <color name="verdeHome">#7AB815</color>
+    <color name="verdeLesson">#A8D137</color>
+
+    <color name="silver_2">#C5C5C5</color>
+    <color name="silver_3">#565656</color>
+    <color name="silver_lesson_lock">#9699A0</color>
+
+
+    <color name="blackSubMenu">#2A3137</color>
+    <color name="yellowMenu">#EBB730</color>
+    <color name="greenMenu">#B2CD48</color>
+    <color name="purpleMenu">#C00077</color>
+    <color name="silverText">#51565C</color>
+    <color name="silver_fondo">#DFE2E7</color>
+
+    <color name="silver_expandle">#F0F1F5</color>
+    <color name="yellow_expandle">#FFB700</color>
+    <color name="silver_card_expandle">#7F888D</color>
+    <color name="greenSetting">#51B900</color>
+    <color name="silver_button_Setting">#D9DDDE</color>
+
+    <color name="text_silver">#4A545D</color>
+
+    <!--inicio perfil-->
+    <color name="fondo_perfil">#3C4147</color>
+    <color name="text_datos">#5F88A8</color>
+    <!--fin perfil-->
+
+    <color name="orange_star">#FCB714</color>
+
+    <!--inicio topten-->
+    <color name="linear_silver_1">#30B2B2B2</color>
+    <color name="linear_silver_2">#30C0C9D1</color>
+    <!--inicio topten-->
+
+    <color name="text_progres_blue">#42769D</color>
+
+
+
+</resources>

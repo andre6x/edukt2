@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">160dp</dimen>
+    <dimen name="size_text_premium">13sp</dimen>
+    <dimen name="size_title_progress">17sp</dimen>
+
+    <dimen name="course_title_left">130dp</dimen>
+    <dimen name="course_title_right">130dp</dimen>
+    <dimen name="course_title_bottom">30dp</dimen>
+
+    <dimen name="slidingmenu_offset">100dp</dimen>
+</resources>

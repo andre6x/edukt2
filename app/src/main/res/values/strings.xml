@@ -1,0 +1,314 @@
+<resources>
+    <string name="app_name">Edukt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="txt_reintenter">Reintentar</string>
+    <string name="txt_tomar_curso">Tomar curso</string>
+    <string name="txt_mis_cursos">Mis Cursos</string>
+    <string name="txt_top_ten">Top Ten</string>
+    <string name="txt_configuraciones">Configuraciones</string>
+    <string name="txt_informacion">Información</string>
+    <string name="txt_progreso">Progreso</string>
+    <string name="txt_porcentaje">0%</string>
+    <string name="txt_tomar_examen">Tomar examen</string>
+    <string name="txt_siguiente_leccion">Siguiente lección</string>
+    <string name="txt_ver_diploma">Ver Diploma</string>
+    <string name="txt_no_hay_evaluaciones">No hay evaluaciones</string>
+    <string name="txt_continuar">Continuar</string>
+    <string name="txt_buscar">Buscar</string>
+    <string name="txt_validate_text">Por favor, ingrese texto a buscar</string>
+    <string name="txt_no_data">No hay datos</string>
+    <string name="txt_error_search">Lo sentimos, imposible realizar búsqueda</string>
+    <string name="txt_conteste">Por favor, conteste todas las preguntas</string>
+    <string name="txt_error_conexion">Lo sentimos, error de conexión por favor vuelva a intentarlo</string>
+    <string name="txt_records_not_exist">No se encontraron coincidencias,\npor favor intente con otras palabras.</string>
+
+
+    <string name="txt_toast">Por favor, tome la lección previa</string>
+    <string name="txt_atencion">Atención</string>
+    <string name="txt_atencion_error">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="txt_felicitaciones">Felicitaciones ha aprobado! Continúe con la siguiente lección</string>
+    <string name="txt_felicitaciones_diploma">Felicitaciones ha aprobado! Continúe para ver diploma</string>
+    <string name="txt_error_quiz">Lo sentimos NO ha aprobado \n¿Desea volver a intentarlo?</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_si">SÍ</string>
+    <string name="txt_no">NO</string>
+    <string name="txt_compartir">Compartir</string>
+    <string name="txt_calificar">Calificar</string>
+    <string name="txt_enviar">Enviar</string>
+
+    <!--PulltoRefresh-->
+    <string name="loading">Cargando...</string>
+    <string name="pull_text">Deslize para refrescar</string>
+    <!-- Request -->
+    <string name="base_path">https://edukt.apicontent.info/services/meducation/mxmov/</string>
+    <string name="base_path_diploma">https://edukt.grupo-link.com/edukt/web/cursos/diploma/</string>
+    <string name="base_path_push_notification">https://edukt.grupo-link.com/api_edukt/web/api/V1/addNumber/plataforma/Android/</string>
+
+
+    <string name="about">Acerca de la app</string>
+    <string name="help">Ayuda</string>
+    <string name="terms">Términos y condiciones</string>
+    <string name="subscribe">Suscripción</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="category_fav">Categorías Favoritas</string>
+
+
+    <string name="text_no_suscribe">Se procede a desvincular la línea asociada a Edukt.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="salir">Salir</string>
+    <string name="next">Continuar</string>
+    <string name="OK">  OK  </string>
+    <string name="state_suscriber_2">Not Subscribed</string>
+    <string name="state_suscriber_100">The msisdn is required</string>
+    <string name="state_suscriber_101">Msisdn is not subscribed</string>
+    <string name="state_suscriber_102">Error in query execution!</string>
+    <string name="state_suscriber_103">Generate PIN failed for integrity</string>
+    <string name="state_suscriber_104">Records not exist!</string>
+    <string name="state_suscriber_105">Error in query execution!</string>
+    <string name="state_suscriber_106">Subscribed not active</string>
+
+    <string name="pin_suscriber_101">The pin is required</string>
+    <string name="pin_suscriber_102">The PIN must be no more 4 characters</string>
+    <string name="pin_suscriber_103">The PIN must be 4 characters</string>
+    <string name="pin_suscriber_104">Msisdn is not subscribed</string>
+    <string name="pin_suscriber_105">PIN does not exist!</string>
+    <string name="pin_suscriber_106">Error in query execution!</string>
+
+    <string name="state_ranking_1">Ranking was inserted successfully</string>
+    <string name="state_ranking_100">The msisdn is required</string>
+    <string name="state_ranking_101">The course is required</string>
+    <string name="state_ranking_102">The ranking is required</string>
+    <string name="state_ranking_104">Tracking failed for integrity!</string>
+    <string name="state_ranking_105">Error in query execution!</string>
+    <string name="state_ranking_106">Unknown suscriptor!</string>
+
+    <string name="m_state_suscriber_2">Usted no se encuentra suscrito al servicio. Para disfrutar de los cursos de Edukt envía M al 3838. Precio final $0,36 diarios.</string>
+    <string name="m_state_suscriber_100">Es obligatorio el ingreso de un número telefónico</string>
+    <string name="m_state_suscriber_101">Usted no se encuentra suscrito al servicio. Para disfrutar de los cursos de Edukt envía M al 3838. Precio final $0,36 diarios.</string>
+    <string name="m_state_suscriber_102">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_state_suscriber_103">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_state_suscriber_104">Servicio no existe</string>
+    <string name="m_state_suscriber_105">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_pin_suscriber_101">Es obligatorio el ingreso del pin</string>
+    <string name="m_pin_suscriber_102">El pin no puede tener menos de 4 caracter</string>
+    <string name="m_pin_suscriber_103">El pin no puede tener mas de 4 caracter</string>
+    <string name="m_pin_suscriber_104">Servicio no se encuentra suscrito a Edukt</string>
+    <string name="m_pin_suscriber_105">El pin ingresado no existe</string>
+    <string name="m_pin_suscriber_106">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+
+    <string name="m_state_ranking_1">Calificación se envió con éxito</string>
+    <string name="m_state_ranking_100">Es obligatorio el ingreso de un número telefónico</string>
+    <string name="m_state_ranking_101">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_state_ranking_102">El ranking es requerido</string>
+    <string name="m_state_ranking_104">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_state_ranking_105">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+    <string name="m_state_ranking_106">Lo lamentamos estamos presentando inconveniente, favor intente más tarde</string>
+
+    <!--  texto suscripcion ecuador-->
+    <string name="linea1">!Edukt, El mejor curso móvil.</string>
+    <string name="linea2">Paso a paso aprenderás manualidades, cocina,</string>
+    <string name="linea3">técnicas de venta, decoración y mucho más!</string>
+    <string name="linea4"></string>
+    <string name="linea5">Para validar tu inscripción a este servicio</string>
+    <string name="linea6">ingresa tu número celular en el</string>
+    <string name="linea7">siguiente campo sin cero.</string>
+    <string name="linea8">Recibirás un SMS con tu</string>
+    <string name="linea9">Número Pin, el cual deberás</string>
+    <string name="linea10">ingresar en la siguiente pantalla.</string>
+
+    <string name="text_send">Ingresar</string>
+    <string name="text_send_mail">Enviar por Correo</string>
+    <string name="text_title_suscriber">Validación</string>
+    <string name="text_insert_number">No se ha ingresado ningún número de teléfono para efectuar la suscripción.</string>
+    <string name="text_insert_number_2">No se han ingresado los 9 dígitos requeridos, por favor ingresa nuevamente tú número telefónico.</string>
+    <string name="text_insert_number_3">No se han ingresado los 10 dígitos requeridos, por favor ingresa nuevamente tú número telefónico.</string>
+    <string name="text_insert_number_4">No se han ingresado los 8 dígitos requeridos, por favor ingresa nuevamente tú número telefónico.</string>
+    <string name="text_insert_pin">No se ha ingresado ningún pin para efectuar la suscripción.</string>
+    <string name="linea_pin1">Ingresa por favor el Pin que llego</string>
+    <string name="linea_pin2">a tu celular en forma de sms</string>
+
+    <!--  texto suscripcion argentina-->
+    <string name="linea1_2">¡Sumate a Edukt y hacé cursos ilimitados!</string>
+    <string name="linea2_2">Todos los curos disponibles.</string>
+    <string name="linea3_2">Diariamente recibirás en tu celular tips de</string>
+    <string name="linea4_2">como mejorar tu rendimiento en cada curso.</string>
+    <string name="linea5_2"></string>
+    <string name="linea6_2">Ingresá tu número con código</string>
+    <string name="linea7_2">de área sin 0 y sin 15.</string>
+    <string name="linea8_2">Por ejemplo, si tu número es de CABA o GBA</string>
+    <string name="linea9_2">ténes que ingresar 113459999</string>
+    <string name="linea10_2">Terminos y Condiciones:</string>
+    <string name="linea11_2">El costo del servicio es de $15 final por semana. Por estar suscripto podrás</string>
+    <string name="linea12_2">acceder a todos los cursos que ofrecemos, de todas las categorías.</string>
+    <string name="linea13_2">Para cancelar el servicio: enviá BAJA al 46669, comunicate en forma gratuita</string>
+    <string name="linea14_2">al 0800 222 8377 o enviá un e-mail a soportemoviles@terra.com.ar</string>
+
+
+    <!--  texto suscripcion mexico-->
+    <string name="linea1_3">¡Edukt! El mejor curso móvil.</string>
+    <string name="linea2_3">Paso a paso aprenderás manualidades, cocina,</string>
+    <string name="linea3_3">técnicas de venta, decoración y mucho más.</string>
+    <string name="linea4_3">Para validar tu inscripción a este servicio</string>
+    <string name="linea5_3">ingresa tu número celular en el</string>
+    <string name="linea6_3">siguiente campo.</string>
+    <string name="linea7_3"></string>
+    <string name="linea8_3"></string>
+    <string name="linea9_3"></string>
+
+    <!--  texto suscripcion chile-->
+    <string name="linea1_4">Empieza a disfrutar ilimitadamente de</string>
+    <string name="linea2_4">los cursos que Edukt tiene para ti!</string>
+    <string name="linea3_4">Aprovecha todos los cursos de </string>
+    <string name="linea4_4">autocapacitación que te ofrecemos.</string>
+    <string name="linea5_4">Adicionalmente te enviaremos interesantes</string>
+    <string name="linea6_4">tips por mensajes de texto.</string>
+    <string name="linea7_4"></string>
+    <string name="linea8_4">Ingresa tu número celular</string>
+    <string name="linea9_4"></string>
+
+    <!--  texto suscripcion nicaragua-->
+    <string name="linea1_5">¡Edukt, el mejor curso móvil!</string>
+    <string name="linea2_5">Paso a paso y de manera fácil </string>
+    <string name="linea3_5">aprenderás manualidades, cocina, </string>
+    <string name="linea4_5">psicología, fotografía y mucho más!</string>
+    <string name="linea5_5">Para validar tu suscripción a este servicio</string>
+    <string name="linea6_5">ingresa tu número celular en el</string>
+    <string name="linea7_5">siguiente campo.</string>
+    <string name="linea8_5"></string>
+    <string name="linea9_5"></string>
+
+    <!--  texto suscripcion salvador-->
+    <string name="linea1_6">¡Edukt, el mejor curso móvil!</string>
+    <string name="linea2_6">Paso a paso y de manera fácil </string>
+    <string name="linea3_6">aprenderás manualidades, cocina, </string>
+    <string name="linea4_6">psicología, fotografía y mucho más!</string>
+    <string name="linea5_6">Para validar tu suscripción a este servicio</string>
+    <string name="linea6_6">ingresa tu número celular en el</string>
+    <string name="linea7_6">siguiente campo.</string>
+    <string name="linea8_6"></string>
+    <string name="linea9_6"></string>
+
+
+    <string name="ok_pin1">Bienvenido a Edukt! </string>
+    <string name="ok_pin2">Ya puedes utilizar todos los cursos</string>
+    <string name="ok_pin3">que te ofrecemos ilimitadamente!</string>
+    <string name="ok_pin4"></string>
+    <string name="ok_pin5">También puedes hacer tus cursos en</string>
+    <string name="ok_pin6">www.edukt.com.ec</string>
+    <string name="ok_pin7"></string>
+    <string name="ok_pin8"></string>
+
+    <string name="insert_email">Ingresa tu e-mail.</string>
+    <string name="insert_last_name">Ingresa tus apellidos para emitir el diploma.</string>
+    <string name="insert_first_name">Ingresa tus nombres para emitir el diploma.</string>
+    <string name="text_diploma">DIPLOMA</string>
+    <string name="diploma_text1">Confiere el siguiente diploma a:</string>
+    <string name="diploma_text3">por haber completado satisfactoriamente el</string>
+    <string name="diploma_text4">curso de</string>
+    <string name="codigo_pais">+593</string>
+
+    <string name="txt_error">Error</string>
+    <string name="course_end">No se puede emitir el diploma aún debido a que no ha completado las lecciones de este curso.</string>
+    <string name="envio_diploma_mail">Se ha enviado el diploma satisfactoriamente.</string>
+    <string name="envio_diploma_mail_error">No se ha podido enviar su diploma, intentelo en unos minutos.</string>
+    <string name="envio_datos_diploma_error">No se ha podido enviar sus datos, intentelo en unos minutos.</string>
+
+
+    <string name="en_construccion">En construcción</string>
+    <string name="ingresa_link_edukt">http://www.edukt.com.ec/edukt/web/</string>
+    <string name="ingresa_link_parrafo">Los mejores cursos On-Line los encuentras en Edukt, ingresa ahora y regístrate en nuestro curso de </string>
+
+    <string name="select_country">Selecciona tu País</string>
+    <string name="ingresa_link_edukt_argentina">http://www.edukte.net/edukt/web/</string>
+    <string name="link_pag_argentina">www.edukte.net</string>
+
+
+    <!--LINK NO SUSCRITO-->
+    <string name="link_pag_ecu">http://www.edukt.com.ec/edukt/web/ingresar/pin/generar/pais/593</string>
+    <string name="link_pag_arg">http://www.edukte.net/edukt/web/ingresar/pin/generarAR/pais/54</string>
+    <string name="link_pag_chl">http://www.edukte.net/edukt/web/ingresar/pin/generar/pais/56</string>
+    <string name="link_pag_nica">http://www.edukte.net/edukt/web/ingresar/pin/generar/pais/505</string>
+    <string name="link_pag_sv">http://www.edukte.net/edukt/web/ingresar/pin/generar/pais/503</string>
+    <string name="link_pag_arg_new_1">http://apiweb.smsconsulting.company/index.php?ani=</string>
+
+
+    <string name="link_pag_ecu_2">http://www.edukte.net/edukt/web/ingresar/pin/generar/pais/593</string>
+    <string name="link_pag_arg_2">http://www.edukte.net/edukt/web/ingresar/pin/generarAR/pais/54</string>
+    <string name="loading_video">Loading video…</string>
+
+    <string name="text_get_code">120</string>
+    <string name="text_error_metodo">Ha ocurrido un problema, por favor intentalo nuevamente</string>
+
+
+    <string name="preferencias_inicio">inicioPreferences</string>
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+
+    <string-array name="setting_lista">
+        <item>Acerca de la app</item>
+        <item>Ayuda</item>
+        <item>Términos y condiciones</item>
+        <item>Suscripción</item>
+    </string-array>
+
+
+    <!--<string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- <string name="hello_blank_fragment">Hello blank fragment</string>-->
+
+    <!--inicio home-->
+    <string name="text_favorito">Favorito</string>
+    <string name="text_siguiendo">Siguiendo</string>
+    <string name="text_finalizado">Finalizado</string>
+    <string name="text_top">Top ten</string>
+    <!--fin home-->
+
+    <!--inicio configuraciones-->
+    <string name="text_settings_1">Aquí podrá administrar</string>
+    <string name="text_settings_2">el contenido de EDUKT</string>
+    <string name="activar">Activar</string>
+    <string name="desactivar">Desactivar</string>
+    <!--fin configuraciones-->
+
+
+    <!--inicio perfil-->
+    <string name="text_datos">Datos personales</string>
+    <string name="text_nombres">Nombres:</string>
+    <string name="text_apellidos">Apellidos:</string>
+    <string name="text_celular"># Celular:</string>
+    <string name="text_email">E-mail:</string>
+    <string name="text_pais">País:</string>
+    <string name="text_desempeno">Desempeño</string>
+    <string name="text_estadistica">Estadísticas</string>
+    <!--fin perfil-->
+
+    <!--inicio categoria favorita-->
+    <string name="text_siguiente">Siguiente</string>
+    <string name="text_omitir">Omitir</string>
+    <string name="text_atras">Atrás</string>
+    <string name="text_category_title">Seleccione sus categorías favoritas</string>
+    <string name="text_category_1">Usted puede seleccionar hasta 5 categorías.</string>
+    <string name="text_category_2">Su contenido aparecerá en el HOME</string>
+    <string name="text_category_3">Si desea seleccionarlas después</string>
+    <string name="text_category_4">presione el botón "Siguiente"</string>
+    <string name="text_mensaje">Seleccione sus categorías favoritas</string>
+    <string name="text_category_list_title">Sus categoriás favoritas son:</string>
+    <string name="text_category_list_1">Su contenido aparecera en el HOME</string>
+    <string name="text_category_list_2">Si desea hacer cambios</string>
+    <string name="text_category_list_3">puede hacerlo en Configuraciones </string>
+    <!--fin categoria favorita-->
+
+    <!--inicio mis cursos -->
+    <string name="text_header_segui">Cursos en seguimiento</string>
+    <string name="text_header_final">Cursos finalizados</string>
+    <!--fin mis cursos -->
+
+
+</resources>

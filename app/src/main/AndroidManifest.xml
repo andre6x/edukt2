@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mlearning.grupolink.com.mlearningandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <permission
+        android:name="mlearning.grupolink.com.mlearningandroid.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="mlearning.grupolink.com.mlearningandroid.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+
+    <application
+        android:name=".MlearningApplicattion"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Start.activities.splashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LessonActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DetalleLessonActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name"> <!-- Prevent Activity restart on such events (specially on orientation change) -->
+            >
+        </activity>
+        <activity
+            android:name=".Settings.activities.SettingsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Information.InformationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".Information.TermsConditionsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Start.activities.FavoriteCategoryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".topTen.TopTenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MyCourses.MyCoursesActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+
+        <receiver
+            android:name="com.mixpanel.android.mpmetrics.GCMReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="mlearning.grupolink.com.mlearningandroid" />
+            </intent-filter>
+        </receiver>
+
+        <!-- inicio notificaciones -->
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="mlearning.grupolink.com.mlearning" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".gcmClasses.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".gcmClasses.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".gcmClasses.RegistrationIntentService"
+            android:exported="false" />
+
+        <!-- fin notificaciones -->
+
+
+        <!--
+      Optionally, register AnalyticsReceiver and AnalyticsService to support background
+      dispatching on non-Google Play devices
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <activity android:name=".CategoriesCourses.CategoriesCoursesActivity" />
+        <activity android:name=".FavoriteCourses.FavoriteCoursesActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_container"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/salir"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_press_two"
+            android:shadowColor="#A4A83E"
+            android:id="@+id/btnCancel" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_press_two"
+            android:shadowColor="#A4A83E"
+            android:id="@+id/btnNext" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

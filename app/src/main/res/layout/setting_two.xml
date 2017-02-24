@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_corner_bottom"
+    android:layout_marginBottom="15dp"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:orientation="vertical">
+        <include
+            android:id="@+id/webview"
+            layout="@layout/setting_list_item"/>
+        <include
+            android:id="@+id/linear_countries"
+            layout="@layout/setting_list_countries"/>
+
+
+</LinearLayout>

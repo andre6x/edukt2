@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/silver_fondo">
+
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/footer"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="@string/text_category_title"
+                        android:textStyle="normal|bold" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/silver"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="@string/text_category_1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="@string/text_category_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="@string/text_category_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="13sp"
+                        android:textColor="@color/black"
+                        android:padding="1dp"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:text="@string/text_category_4"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/lyt_loading"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:visibility="gone"
+                        android:layout_height="200dp">
+
+                        <include layout="@layout/loading_black"
+                            android:visibility="gone"/>
+
+                    </LinearLayout>
+
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:scrollbars="vertical"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_omitir"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        app:cardBackgroundColor="@color/greenSetting"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="20dp"
+                        app:cardElevation="1dp"
+                        app:cardCornerRadius="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/text_omitir"
+                            android:textSize="18sp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card_siguiente"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        app:cardBackgroundColor="@color/greenSetting"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="5dp"
+                        app:cardElevation="1dp"
+                        app:cardCornerRadius="5dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="@string/text_siguiente"
+                            android:textSize="18sp"
+                            android:textColor="@color/white"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"/>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

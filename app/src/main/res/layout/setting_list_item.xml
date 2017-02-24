@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webTextSettings"
+        android:background="@android:color/transparent" />
+
+              <!--  <LinearLayout
+                    android:id="@+id/layout_select"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="3dp">
+                    <LinearLayout
+                        android:id="@+id/layout_1"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_ec"
+                            android:text="Ecuador"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible"
+                            android:layout_marginRight="8dp" />
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_ar"
+                            android:text="Argentina"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_mx"
+                            android:text="México"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible"
+                            android:layout_marginRight="8dp" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_chl"
+                            android:text="Chile"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_3"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:visibility="visible">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_ni"
+                            android:text="Nicaragua"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible"
+                            android:layout_marginRight="8dp" />
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/button_sv"
+                            android:text="Salvador"
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout_4"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:visibility="gone">
+
+                        <Button
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:id="@+id/but"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:background="@drawable/custom_button"
+                            android:visibility="visible"
+                            android:layout_marginRight="8dp" />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"></LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>-->
+
+
+</LinearLayout>

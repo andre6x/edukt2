@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_perfil"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:id="@+id/linear_container">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/user_avatar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@mipmap/menu_user" />
+            </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/main_card_datos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="20dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="false"
+                app:cardPreventCornerOverlap="true"
+                android:visibility="visible"
+                app:cardCornerRadius="2dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/perfil_user" />
+                    <TextView
+                        android:text="@string/text_datos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/text_silver"
+                        android:textStyle="normal|bold" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/perfil_lapiz" />
+                </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/silver_fondo"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+                    <TextView
+                        android:text="@string/text_nombres"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_datos" />
+                    <TextView
+                        android:text="Lorena Alexandra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_name"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_silver" />
+                </LinearLayout>
+                    <View
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/silver_fondo"/>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+                <TextView
+                    android:text="@string/text_apellidos"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_datos"/>
+                <TextView
+                    android:text="Miranda Lopez"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_last_name"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_silver" />
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver_fondo"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+                    <TextView
+                        android:text="@string/text_celular"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_datos"/>
+                    <TextView
+                        android:text="0912345678"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_cell"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_silver"/>
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/silver_fondo"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+                    <TextView
+                        android:text="@string/text_email"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_datos" />
+                    <TextView
+                        android:text="lorena_miranda@gmail.com"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_email"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_silver" />
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/silver_fondo"/>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp">
+                    <TextView
+                        android:text="@string/text_pais"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_datos" />
+                    <TextView
+                        android:text="Ecuador"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_pais"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/text_silver"/>
+                </LinearLayout>
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/silver_fondo"/>
+
+
+             </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/main_card_desempeno"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="true"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="10dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/perfil_desempeno" />
+                <TextView
+                    android:text="@string/text_desempeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_silver"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/silver_fondo"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/main_card_estadistica"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="false"
+            app:cardPreventCornerOverlap="true"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="10dp">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@mipmap/perfil_statistics" />
+                    <TextView
+                        android:text="@string/text_estadistica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/text_silver"
+                        android:textStyle="normal|bold" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/silver_fondo"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
+
